@@ -96,3 +96,96 @@
       border-width: 1px;
       margin: 32px 0px 45px;
   }
+
+
+
+/* main styles   */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* web development section styles   */
+
+.why-web-dev {
+    padding: 80px 97px;
+    text-align: center;
+    background: #FAFAFB;
+}
+
+.why-web-dev h2 {
+    font-weight: 800;
+    font-size: 32px;
+    margin-left: 47px;
+    margin-right: 47px;
+    margin-bottom: 24px;
+}
+
+.section-description{
+    font-size: 16px;
+    margin: 24px 48px 48px 48px;
+}
+
+
+.reasons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin: 0px;
+}
+
+.reason {
+    display: flex;
+    margin: 48px;
+    opacity: 2;
+    
+}
+
+.reason-text {
+    padding: 40px;
+    flex: 1;
+    text-align: left;
+
+}
+
+.reason-text h1 {
+    font-weight: bold;
+    font-size: 24px;  
+}
+
+.reason-text p {
+    font-size: 16px;
+    color: #0D1321;
+    margin: 12px 9px 32px 0px;
+}
+
+.reason-text button {
+    width: 171px;
+    height: 47px;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-width: 1px;
+}
+
+.reason-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+       
+}
+
+.reason-two-image  {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;  
+    align-items: center; 
+}
+
+
+
+
