@@ -224,5 +224,70 @@ main {
     height: 100%;
 }
 
+/* Target section styles  */
+
+.targets {
+    padding: 80px 97px;
+    text-align: center;
+    background: #FAFAFB;
+}
+
+.targets h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.target {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 8px;
+    border-width: 1px;
+    
+}
+
+.target img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.target h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.target p {
+    font-size: 16px;
+}
+
+.learn-more {
+    color: black;
+}
+
+.html-card {
+    padding: 40px;
+    background-color: #ffecec;
+    border-radius: 16px;
+    border-width: 1px;
+    
+}
+
+.css-card {
+    padding: 40px;
+    background-color: #e6f0ff;
+    border-radius: 16px;
+    border-width: 1px;
+    
+}
+
+.js-card {
+    padding: 40px;
+    background-color: #fff9e6;
+    border-radius: 16px;
+    border-width: 1px;
+}
 
 
