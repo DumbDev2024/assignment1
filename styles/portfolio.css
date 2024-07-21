@@ -264,6 +264,8 @@ main {
 }
 
 .learn-more {
+    font-weight: bold;
+    font-size: 16px;
     color: black;
 }
 
@@ -290,4 +292,86 @@ main {
     border-width: 1px;
 }
 
+/* Support section styles  */
 
+.support {
+    background-image: url('../images/handshake.jpg');
+    opacity: 0.9;
+    background-size: cover;
+    background-position: center;
+    padding: 38px 48px 64px 48px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border-width: 1px;
+}
+/*
+.why-web-dev {    my inspiration similar styles   
+    padding: 80px 97px;
+    text-align: center;
+    background: #FAFAFB;
+}
+
+.why-web-dev h2 {  /* my inspiration similar styles   
+    font-weight: 800;
+    font-size: 32px;
+    margin-left: 47px;
+    margin-right: 47px;
+    margin-bottom: 24px;
+}
+
+.section-description{ /* my inspiration similar styles   
+    font-size: 16px;
+    margin: 24px 48px 48px 48px;
+}
+*/
+.support-text {
+    padding: 0px 157px 24px 157px;
+}
+
+.support h2 {
+    font-size: 28px;
+    
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 16px;
+    
+
+}
+
+.support-description {
+    
+    
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    padding: 0px 62px;
+    margin-top: 0px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    padding: 10px;
+    width: 548px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #000;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
