@@ -12,7 +12,7 @@
   /*nav styles */
   
   nav{
-  
+      height: 20px;  
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -64,6 +64,7 @@
       align-items: center;
       justify-content: center;
       text-align: center;
+      width:100%;
   
   }
   
@@ -295,8 +296,8 @@ main {
 /* Support section styles  */
 
 .support {
-    background-image: url('../images/handshake.jpg');
-    opacity: 0.9;
+    
+    background-image: url('../images/handshake_new.jpg');
     background-size: cover;
     background-position: center;
     padding: 38px 48px 64px 48px;
@@ -305,29 +306,12 @@ main {
     align-items: center;
     border-radius: 16px;
     border-width: 1px;
-}
-/*
-.why-web-dev {    my inspiration similar styles   
-    padding: 80px 97px;
-    text-align: center;
-    background: #FAFAFB;
+    margin-bottom: 80px;
 }
 
-.why-web-dev h2 {  /* my inspiration similar styles   
-    font-weight: 800;
-    font-size: 32px;
-    margin-left: 47px;
-    margin-right: 47px;
-    margin-bottom: 24px;
-}
-
-.section-description{ /* my inspiration similar styles   
-    font-size: 16px;
-    margin: 24px 48px 48px 48px;
-}
-*/
 .support-text {
     padding: 0px 157px 24px 157px;
+    
 }
 
 .support h2 {
@@ -347,7 +331,7 @@ main {
     display: flex;
     justify-content: center;
     color: white;
-
+    opacity: 0.7;
     padding: 0px 62px;
     margin-top: 0px;
 }
@@ -375,3 +359,55 @@ form button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* Footer section styles  */
+
+footer {
+    border-radius: 16px;
+    background: #f8f8f8;
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+    width: 1140px;
+
+
+}
+
+.footer-content p {
+    
+    font-size: 20px;
+    font-weight: bolder;
+    color: #333;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: flex-start;
+    margin-right: 500px;
+    margin-left: 0px;
+    padding-left: 0px;
+    
+}
+
+.social-icons {
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+}
+
+.social-icons img {
+    padding-right: 20px;
+    width: 36px;
+    height: 36px;
+}
+
+
+
